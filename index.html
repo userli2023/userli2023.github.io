@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="923b57745b544702a413c812d20990a5" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_923b57745b544702a413c812d20990a5 = echarts.init(
+            document.getElementById('923b57745b544702a413c812d20990a5'), 'white', {renderer: 'canvas'});
+        var option_923b57745b544702a413c812d20990a5 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "rgb(52,137,107)",
+        "rgb(229,182,191)"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "95th percentile",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1978",
+                    29.0
+                ],
+                [
+                    "1990",
+                    12.0
+                ],
+                [
+                    "1993",
+                    9.7
+                ],
+                [
+                    "2000",
+                    7.0
+                ],
+                [
+                    "2002",
+                    5.8
+                ],
+                [
+                    "2004",
+                    5.1
+                ],
+                [
+                    "2006",
+                    3.8
+                ],
+                [
+                    "2008",
+                    4.1
+                ],
+                [
+                    "2010",
+                    3.4
+                ],
+                [
+                    "2012",
+                    2.9
+                ],
+                [
+                    "2014",
+                    2.2
+                ],
+                [
+                    "2016",
+                    2.8
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "min"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "Median",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "1978",
+                    15.0
+                ],
+                [
+                    "1990",
+                    3.5
+                ],
+                [
+                    "1993",
+                    2.6
+                ],
+                [
+                    "2000",
+                    2.2
+                ],
+                [
+                    "2002",
+                    1.6
+                ],
+                [
+                    "2004",
+                    1.6
+                ],
+                [
+                    "2006",
+                    1.4
+                ],
+                [
+                    "2008",
+                    1.4
+                ],
+                [
+                    "2010",
+                    1.2
+                ],
+                [
+                    "2012",
+                    1.0
+                ],
+                [
+                    "2014",
+                    0.7
+                ],
+                [
+                    "2016",
+                    0.7
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "max"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "95th percentile",
+                "Median"
+            ],
+            "selected": {
+                "95th percentile": true,
+                "Median": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1978",
+                "1990",
+                "1993",
+                "2000",
+                "2002",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2012",
+                "2014",
+                "2016"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Lead blood concentrations in children",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_923b57745b544702a413c812d20990a5.setOption(option_923b57745b544702a413c812d20990a5);
+    </script>
+</body>
+</html>
